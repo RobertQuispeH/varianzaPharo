@@ -1,0 +1,14 @@
+|x|
+x:= X new.
+x foo1: B new.
+"-->B:goo()"
+
+x foo2: C new.
+"-->C:Doo()"
+
+x:= Y new.
+x foo1: C new.
+"-->C:Doo()"
+
+x foo2: A new.
+"-->A:Doo()"
